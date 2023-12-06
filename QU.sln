@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QU.Logic", "src\QU.Logic\QU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QU.Logic.Test", "test\QU.Logic.Test\QU.Logic.Test.csproj", "{D61779EE-1B1F-485D-B027-8F56107EFEA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QU.Core.Test", "test\QU.Core.Test\QU.Core.Test.csproj", "{8C0E4165-563A-47E9-BE45-0A5C550E13A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{D61779EE-1B1F-485D-B027-8F56107EFEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D61779EE-1B1F-485D-B027-8F56107EFEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D61779EE-1B1F-485D-B027-8F56107EFEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0E4165-563A-47E9-BE45-0A5C550E13A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0E4165-563A-47E9-BE45-0A5C550E13A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0E4165-563A-47E9-BE45-0A5C550E13A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0E4165-563A-47E9-BE45-0A5C550E13A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{CC9A229C-48A6-4FEF-97EA-B12BAF55735D} = {6A3109F1-1C07-4F73-922B-A03C8485AB0F}
 		{B51CA6A9-C20D-435B-A600-1BF121AA2059} = {6A3109F1-1C07-4F73-922B-A03C8485AB0F}
 		{D61779EE-1B1F-485D-B027-8F56107EFEA5} = {5534D2C9-A977-4453-A0D3-8B737E827C1B}
+		{8C0E4165-563A-47E9-BE45-0A5C550E13A5} = {5534D2C9-A977-4453-A0D3-8B737E827C1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9904841B-9734-412B-9C2C-C48C601725B2}
