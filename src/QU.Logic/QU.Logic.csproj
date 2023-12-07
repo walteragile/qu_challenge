@@ -10,8 +10,4 @@
     <ProjectReference Include="..\QU.Core\QU.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
