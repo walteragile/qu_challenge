@@ -91,7 +91,7 @@ public class MatrixServiceTests
         var y = 0;
 
         // Act
-        var result = _target.IsFound(matrix, x, y, word);
+        var result = _target.IsFoundX(matrix, x, y, word);
 
         // Assert
         Assert.True(result);
@@ -112,7 +112,7 @@ public class MatrixServiceTests
         var y = 1;
 
         // Act
-        var result = _target.IsFound(matrix, x, y, word);
+        var result = _target.IsFoundY(matrix, x, y, word);
 
         // Assert
         Assert.True(result);
@@ -133,7 +133,11 @@ public class MatrixServiceTests
         var y = 1;
 
         // Act
-        var result = _target.IsFound(matrix, x, y, word);
+        var result = _target.IsFoundX(matrix, x, y, word);
+        if (!result )
+        {
+            result = _target.IsFoundY(matrix, x, y, word);
+        }
 
         // Assert
         Assert.False(result);
